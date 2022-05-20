@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1056434579869",
+    "firebase_url": "https://vocesmar-1778a-default-rtdb.firebaseio.com",
+    "project_id": "vocesmar-1778a",
+    "storage_bucket": "vocesmar-1778a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1056434579869:android:17d4c79e7b9de7a6f7e774",
+        "android_client_info": {
+          "package_name": "com.example.index"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1056434579869-gv3pgn24p0in33bmpjqrd1fjsccn8fat.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.index",
+            "certificate_hash": "88a20ed2d4a1f46051bc73c0e119c894f4682c41"
+          }
+        },
+        {
+          "client_id": "1056434579869-8cfpvkcps8pudr4euca4ohmicj2mgf5o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADePxR9wE8aXGEahhcaDc3NrHjXs9gKSg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1056434579869-8cfpvkcps8pudr4euca4ohmicj2mgf5o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

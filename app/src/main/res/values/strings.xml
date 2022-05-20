@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Index</string>
+    <string name="btnopen">Iniciar Seccion</string>
+    <string name="viewmsm">¿ Aun no tienes una cuenta ?</string>
+    <string name="viewregistrate">Registrate</string>
+    <string name="logingmail">Ingrese su correo</string>
+    <string name="loginpass">Ingrese su contraseña</string>
+
+
+    //Login
+
+    //Sign Out
+    <string name="cname">Nombres</string>
+    <string name="clast">Apellidos</string>
+    <string name="cgmail">Correo</string>
+    <string name="cpass">Contraseña</string>
+    <string name="ccpass">Verifique</string>
+    <string name="btnsignout">Inscribete</string>
+
+    <string name="regname">Ingrese sus nombres</string>
+    <string name="reglast">Ingrese sus apellidos</string>
+    <string name="reggmail">Ingrese su correo</string>
+    <string name="regpass">***********</string>
+    <string name="regcpass">***********</string>
+
+    <string name="btncerrar">Cerrar Seccion</string>
+
+    //Data
+    <string name="tvname">Nombre</string>
+    <string name="tvgmail">Correo</string>
+    <string name="perfilname">***</string>
+    <string name="perfilgmail">***</string>
+
+
+</resources>
