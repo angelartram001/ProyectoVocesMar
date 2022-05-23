@@ -21,7 +21,7 @@ public class PerfilUser extends AppCompatActivity {
 
     private FirebaseAuth auth;
     DatabaseReference dbref;
-    EditText pername,pergmail;
+    EditText pername,pergmail,perpermisos;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,6 +30,7 @@ public class PerfilUser extends AppCompatActivity {
 
         pername = (EditText) findViewById(R.id.perfilname);
         pergmail = (EditText) findViewById(R.id.perfilgmail);
+        perpermisos = (EditText) findViewById(R.id.perfilpermisos);
 
         auth = FirebaseAuth.getInstance();
         dbref = FirebaseDatabase.getInstance().getReference();
@@ -61,6 +62,7 @@ public class PerfilUser extends AppCompatActivity {
 
                     pername.setText(name);
                     pergmail.setText(gmail);
+                    perpermisos.setText(permisos);
 
                 }
             }

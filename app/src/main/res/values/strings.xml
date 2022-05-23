@@ -28,8 +28,11 @@
     //Data
     <string name="tvname">Nombre</string>
     <string name="tvgmail">Correo</string>
+    <string name="tvpermisos">Permisos</string>
     <string name="perfilname">***</string>
     <string name="perfilgmail">***</string>
+    <string name="perfilpermisos">En espera</string>
 
+    //<string name="btnadmi">Cerrar seccion</string>
 
 </resources>
