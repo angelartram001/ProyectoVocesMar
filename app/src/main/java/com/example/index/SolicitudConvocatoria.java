@@ -3,31 +3,24 @@ package com.example.index;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.content.ContentValues;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
-import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.index.Clases.Usuarios;
+import com.example.index.Splash.SplashRegister;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
-import com.google.firebase.FirebaseApp;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
-import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
-import java.util.HashMap;
-import java.util.Map;
-import java.util.UUID;
-
 public class SolicitudConvocatoria extends AppCompatActivity {
 
-    EditText rname,rlast,rgmail,rpass,rcpass;
+    EditText rname,rgmail,rpass,rcpass,redad,rpost;
     Usuarios user = null;
 
     private FirebaseAuth auth;
@@ -39,10 +32,11 @@ public class SolicitudConvocatoria extends AppCompatActivity {
         setContentView(R.layout.activity_solicitud_convocatoria);
 
         rname = (EditText) findViewById(R.id.regname);
-        rlast = (EditText) findViewById(R.id.reglast);
         rgmail = (EditText) findViewById(R.id.reggmail);
         rpass = (EditText) findViewById(R.id.regpass);
         rcpass = (EditText) findViewById(R.id.regcpass);
+        redad = (EditText) findViewById(R.id.regedad);
+        rpost = (EditText) findViewById(R.id.regpostulacion);
 
         auth = FirebaseAuth.getInstance();
         dbReference = FirebaseDatabase.getInstance().getReference();
@@ -54,7 +48,7 @@ public class SolicitudConvocatoria extends AppCompatActivity {
         ValidarInfo();
     }
 
-    public void AgregarUsuario(String xnom,String xape,String xgma,String xpas){
+    public void AgregarUsuario(String xnom,String xgma,String xpas,int xedad,String xpos){
 
         auth.createUserWithEmailAndPassword(xgma,xpas).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
             @Override
@@ -63,12 +57,12 @@ public class SolicitudConvocatoria extends AppCompatActivity {
 
                     user = new Usuarios();
                     user.setName(xnom);
-                    user.setLastname(xape);
                     user.setGmail(xgma);
                     user.setPassword(xpas);
+                    user.setEdad(xedad);
+                    user.setPostulacion(xpos);
                     user.setActive(false);   //True para activar su cuenta
                     user.setPermisos(false); //True para ser administrador
-
                     String id = auth.getCurrentUser().getUid();
                     user.setId(id);
                     dbReference.child("Usuarios").child(user.getId()).setValue(user);
@@ -81,24 +75,29 @@ public class SolicitudConvocatoria extends AppCompatActivity {
     public void ValidarInfo(){
 
         String name = rname.getText().toString();
-        String last = rlast.getText().toString();
         String gmail = rgmail.getText().toString();
         String pass = rpass.getText().toString();
         String cpass = rcpass.getText().toString();
+        String campedad = redad.getText().toString();
+        String postulation = rpost.getText().toString();
 
-        if(!name.isEmpty() && !last.isEmpty() && !gmail.isEmpty()
-                && !pass.isEmpty() && !cpass.isEmpty()){
+        if(!name.isEmpty() && !postulation.isEmpty() && !gmail.isEmpty()
+                && !campedad.isEmpty() && !pass.isEmpty() && !cpass.isEmpty()){
 
             try{
-                if(pass.equals(cpass)){
-                    AgregarUsuario(name,last,gmail,pass);
-                    Intent next = new Intent(this,MainActivity.class);
-                    startActivity(next);
-                    msm("Su convocatoria a sido presentada exitosamente");
+                if(pass.length()>=6){
+                    if(pass.equals(cpass)){
+                        int edad = Integer.parseInt(campedad);
+                        AgregarUsuario(name,gmail,pass,edad,postulation);
+                        startActivity(new Intent(this,SplashRegister.class));
+                        finish();
+                    }
+                    else{
+                        msm("Las contraseñas no coinciden");
+                    }
                 }
-                else{
-                    msm("Las contraseñas no coinciden");
-                }
+                else
+                    msm("La contraseña debe tener minimo 6 caracteres");
             }
             catch (Exception e){
                 msm(""+e);}

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Angel Art/AndroidStudioProjects/Voces_Marinas/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.332" />
+        <entry key="..\:/Users/Angel Art/AndroidStudioProjects/Voces_Marinas/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/Angel Art/AndroidStudioProjects/Voces_Marinas/app/src/main/res/layout/activity_perfil_admi.xml" value="0.22131147540983606" />
+        <entry key="..\:/Users/Angel Art/AndroidStudioProjects/Voces_Marinas/app/src/main/res/layout/activity_perfil_user.xml" value="0.25" />
+        <entry key="..\:/Users/Angel Art/AndroidStudioProjects/Voces_Marinas/app/src/main/res/layout/activity_solicitud_convocatoria.xml" value="0.2609289617486339" />
+        <entry key="..\:/Users/Angel Art/Desktop/Voces_Marinas (Beta)/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2585" />
+        <entry key="..\:/Users/Angel Art/Desktop/Voces_Marinas (Beta)/app/src/main/res/drawable/side_nav_bar.xml" value="0.3015" />
+        <entry key="..\:/Users/Angel Art/Desktop/Voces_Marinas (Beta)/app/src/main/res/drawable/stylebtn.xml" value="0.3515" />
+        <entry key="..\:/Users/Angel Art/Desktop/Voces_Marinas (Beta)/app/src/main/res/drawable/stylebtnblack.xml" value="0.178" />
+        <entry key="..\:/Users/Angel Art/Desktop/Voces_Marinas (Beta)/app/src/main/res/drawable/stylebtnmar.xml" value="0.178" />
+        <entry key="..\:/Users/Angel Art/Desktop/Voces_Marinas (Beta)/app/src/main/res/layout/ModeloCarta.xml" value="0.22506830601092895" />
+        <entry key="..\:/Users/Angel Art/Desktop/Voces_Marinas (Beta)/app/src/main/res/layout/activity_descrip_convocatoria.xml" value="0.26015625" />
+        <entry key="..\:/Users/Angel Art/Desktop/Voces_Marinas (Beta)/app/src/main/res/layout/activity_inicio.xml" value="0.26328125" />
+        <entry key="..\:/Users/Angel Art/Desktop/Voces_Marinas (Beta)/app/src/main/res/layout/activity_login.xml" value="0.26015625" />
+        <entry key="..\:/Users/Angel Art/Desktop/Voces_Marinas (Beta)/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/Angel Art/Desktop/Voces_Marinas (Beta)/app/src/main/res/layout/activity_menu_user.xml" value="0.22" />
+        <entry key="..\:/Users/Angel Art/Desktop/Voces_Marinas (Beta)/app/src/main/res/layout/activity_solicitud_convocatoria.xml" value="0.25" />
+        <entry key="..\:/Users/Angel Art/Desktop/Voces_Marinas (Beta)/app/src/main/res/layout/activity_splash_register.xml" value="0.26328125" />
+        <entry key="..\:/Users/Angel Art/Desktop/Voces_Marinas (Beta)/app/src/main/res/layout/activity_splashconf.xml" value="0.26328125" />
+        <entry key="..\:/Users/Angel Art/Desktop/Voces_Marinas (Beta)/app/src/main/res/layout/activity_splashstar.xml" value="0.26328125" />
+        <entry key="..\:/Users/Angel Art/Desktop/Voces_Marinas (Beta)/app/src/main/res/layout/app_bar_menu_user.xml" value="0.26328125" />
+        <entry key="..\:/Users/Angel Art/Desktop/Voces_Marinas (Beta)/app/src/main/res/layout/content_menu_user.xml" value="0.26328125" />
+        <entry key="..\:/Users/Angel Art/Desktop/Voces_Marinas (Beta)/app/src/main/res/layout/fragment_all_user.xml" value="0.22506830601092895" />
+        <entry key="..\:/Users/Angel Art/Desktop/Voces_Marinas (Beta)/app/src/main/res/layout/fragment_convocatorias.xml" value="0.22506830601092895" />
+        <entry key="..\:/Users/Angel Art/Desktop/Voces_Marinas (Beta)/app/src/main/res/layout/fragment_descripcion_convocatoria.xml" value="0.25" />
+        <entry key="..\:/Users/Angel Art/Desktop/Voces_Marinas (Beta)/app/src/main/res/layout/fragment_eventos.xml" value="0.22506830601092895" />
+        <entry key="..\:/Users/Angel Art/Desktop/Voces_Marinas (Beta)/app/src/main/res/layout/fragment_perfil.xml" value="0.22506830601092895" />
+        <entry key="..\:/Users/Angel Art/Desktop/Voces_Marinas (Beta)/app/src/main/res/layout/modelcard.xml" value="0.22506830601092895" />
+        <entry key="..\:/Users/Angel Art/Desktop/Voces_Marinas (Beta)/app/src/main/res/layout/modelcard_conv.xml" value="0.33" />
+        <entry key="..\:/Users/Angel Art/Desktop/Voces_Marinas (Beta)/app/src/main/res/layout/modelcard_eventos.xml" value="0.25" />
+        <entry key="..\:/Users/Angel Art/Desktop/Voces_Marinas (Beta)/app/src/main/res/layout/modelo_Carta.xml" value="0.22506830601092895" />
+        <entry key="..\:/Users/Angel Art/Desktop/Voces_Marinas (Beta)/app/src/main/res/layout/nav_header_menu_user.xml" value="0.23087431693989072" />
+        <entry key="..\:/Users/Angel Art/Desktop/Voces_Marinas (Beta)/app/src/main/res/menu/activity_main_drawer.xml" value="0.26328125" />
+        <entry key="..\:/Users/Angel Art/Desktop/Voces_Marinas (Beta)/app/src/main/res/menu/menu_user.xml" value="0.26015625" />
+        <entry key="..\:/Users/Angel Art/Desktop/Voces_Marinas/app/src/main/res/layout/activity_main.xml" value="0.20457650273224043" />
+        <entry key="..\:/Users/Angel Art/Desktop/Voces_Marinas/app/src/main/res/layout/activity_menu_user.xml" value="0.22" />
+        <entry key="..\:/Users/Angel Art/Desktop/Voces_Marinas/app/src/main/res/layout/activity_perfil_admi.xml" value="0.20184426229508196" />
+        <entry key="..\:/Users/Angel Art/Desktop/Voces_Marinas/app/src/main/res/layout/activity_perfil_user.xml" value="0.20184426229508196" />
+        <entry key="..\:/Users/Angel Art/Desktop/Voces_Marinas/app/src/main/res/layout/activity_solicitud_convocatoria.xml" value="0.20457650273224043" />
+        <entry key="..\:/Users/Angel Art/Desktop/Voces_Marinas/app/src/main/res/layout/app_bar_menu_user.xml" value="0.1" />
+        <entry key="..\:/Users/Angel Art/Desktop/Voces_Marinas/app/src/main/res/layout/content_menu_user.xml" value="0.25" />
+        <entry key="..\:/Users/Angel Art/Desktop/Voces_Marinas/app/src/main/res/layout/fragment_all_user.xml" value="0.22506830601092895" />
+        <entry key="..\:/Users/Angel Art/Desktop/Voces_Marinas/app/src/main/res/layout/fragment_convocatorias.xml" value="0.22506830601092895" />
+        <entry key="..\:/Users/Angel Art/Desktop/Voces_Marinas/app/src/main/res/layout/fragment_eventos.xml" value="0.22506830601092895" />
+        <entry key="..\:/Users/Angel Art/Desktop/Voces_Marinas/app/src/main/res/layout/fragment_gallery.xml" value="0.20457650273224043" />
+        <entry key="..\:/Users/Angel Art/Desktop/Voces_Marinas/app/src/main/res/layout/fragment_home.xml" value="0.20457650273224043" />
+        <entry key="..\:/Users/Angel Art/Desktop/Voces_Marinas/app/src/main/res/layout/fragment_perfil.xml" value="0.26015625" />
+        <entry key="..\:/Users/Angel Art/Desktop/Voces_Marinas/app/src/main/res/layout/fragment_slideshow.xml" value="0.20457650273224043" />
+        <entry key="..\:/Users/Angel Art/Desktop/Voces_Marinas/app/src/main/res/layout/nav_header_menu_user.xml" value="0.20457650273224043" />
+        <entry key="..\:/Users/Angel Art/Desktop/Voces_Marinas/app/src/main/res/menu/activity_main_drawer.xml" value="0.25" />
+        <entry key="..\:/Users/Angel Art/Desktop/Voces_Marinas/app/src/main/res/menu/menu_user.xml" value="0.26328125" />
+        <entry key="..\:/Users/CLIENTE/Desktop/Voces_Marinas/app/src/main/res/drawable/stylebtnmar.xml" value="0.26" />
+        <entry key="..\:/Users/CLIENTE/Desktop/Voces_Marinas/app/src/main/res/layout/activity_crear_eventos.xml" value="0.21277322404371585" />
+        <entry key="..\:/Users/CLIENTE/Desktop/Voces_Marinas/app/src/main/res/layout/activity_descrip_convocatoria.xml" value="0.20901639344262296" />
+        <entry key="..\:/Users/CLIENTE/Desktop/Voces_Marinas/app/src/main/res/layout/activity_descrip_eventos.xml" value="0.22" />
+        <entry key="..\:/Users/CLIENTE/Desktop/Voces_Marinas/app/src/main/res/layout/activity_editar_eventos.xml" value="0.21277322404371585" />
+        <entry key="..\:/Users/CLIENTE/Desktop/Voces_Marinas/app/src/main/res/layout/activity_eventos_unirse.xml" value="0.18" />
+        <entry key="..\:/Users/CLIENTE/Desktop/Voces_Marinas/app/src/main/res/layout/activity_inicio.xml" value="0.20901639344262296" />
+        <entry key="..\:/Users/CLIENTE/Desktop/Voces_Marinas/app/src/main/res/layout/activity_login.xml" value="0.2342896174863388" />
+        <entry key="..\:/Users/CLIENTE/Desktop/Voces_Marinas/app/src/main/res/layout/activity_mapa_evento.xml" value="0.13114754098360656" />
+        <entry key="..\:/Users/CLIENTE/Desktop/Voces_Marinas/app/src/main/res/layout/activity_maps.xml" value="0.1878415300546448" />
+        <entry key="..\:/Users/CLIENTE/Desktop/Voces_Marinas/app/src/main/res/layout/activity_menu_user.xml" value="0.26328125" />
+        <entry key="..\:/Users/CLIENTE/Desktop/Voces_Marinas/app/src/main/res/layout/activity_solicitud_convocatoria.xml" value="0.25" />
+        <entry key="..\:/Users/CLIENTE/Desktop/Voces_Marinas/app/src/main/res/layout/activity_splash_evento_creado.xml" value="0.22" />
+        <entry key="..\:/Users/CLIENTE/Desktop/Voces_Marinas/app/src/main/res/layout/activity_splash_evento_registrado.xml" value="0.21106557377049182" />
+        <entry key="..\:/Users/CLIENTE/Desktop/Voces_Marinas/app/src/main/res/layout/activity_splash_register.xml" value="0.20901639344262296" />
+        <entry key="..\:/Users/CLIENTE/Desktop/Voces_Marinas/app/src/main/res/layout/activity_splashstar.xml" value="0.26328125" />
+        <entry key="..\:/Users/CLIENTE/Desktop/Voces_Marinas/app/src/main/res/layout/app_bar_menu_user.xml" value="0.26328125" />
+        <entry key="..\:/Users/CLIENTE/Desktop/Voces_Marinas/app/src/main/res/layout/content_menu_user.xml" value="0.26328125" />
+        <entry key="..\:/Users/CLIENTE/Desktop/Voces_Marinas/app/src/main/res/layout/fragment_all_user.xml" value="0.26328125" />
+        <entry key="..\:/Users/CLIENTE/Desktop/Voces_Marinas/app/src/main/res/layout/fragment_convocatorias.xml" value="0.20901639344262296" />
+        <entry key="..\:/Users/CLIENTE/Desktop/Voces_Marinas/app/src/main/res/layout/fragment_eventos.xml" value="0.20901639344262296" />
+        <entry key="..\:/Users/CLIENTE/Desktop/Voces_Marinas/app/src/main/res/layout/fragment_eventos_administrador.xml" value="0.16" />
+        <entry key="..\:/Users/CLIENTE/Desktop/Voces_Marinas/app/src/main/res/layout/fragment_eventos_voluntario.xml" value="0.26328125" />
+        <entry key="..\:/Users/CLIENTE/Desktop/Voces_Marinas/app/src/main/res/layout/fragment_perfil.xml" value="0.20901639344262296" />
+        <entry key="..\:/Users/CLIENTE/Desktop/Voces_Marinas/app/src/main/res/layout/modelcard_eventos.xml" value="0.1" />
+        <entry key="..\:/Users/CLIENTE/Desktop/Voces_Marinas/app/src/main/res/layout/modelcard_usuarios.xml" value="0.2" />
+        <entry key="..\:/Users/CLIENTE/Desktop/Voces_Marinas/app/src/main/res/layout/modelocard_all.xml" value="0.22" />
+        <entry key="..\:/Users/CLIENTE/Desktop/Voces_Marinas/app/src/main/res/layout/nav_header_menu_user.xml" value="0.19057377049180327" />
+        <entry key="..\:/Users/CLIENTE/Desktop/Voces_Marinas/app/src/main/res/menu/activity_main_drawer.xml" value="0.26328125" />
+        <entry key="..\:/Users/CLIENTE/Desktop/Voces_Marinas/app/src/main/res/menu/menu_user.xml" value="0.26328125" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

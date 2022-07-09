@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OpcionesMenu.EventosAdministrador.CrearEventos">
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="50dp"
+        android:text="@string/tituloeven"
+        android:textColor="@color/mar"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/addeven_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="40dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/evenname"
+        android:background="@color/editperf"
+        android:textColor="@color/textperf"
+        android:padding="10dp"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+    <EditText
+        android:id="@+id/addeven_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="40dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/evendesc"
+        android:background="@color/editperf"
+        android:textColor="@color/textperf"
+        android:padding="10dp"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addeven_name" />
+
+    <EditText
+        android:id="@+id/addeven_ubic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="40dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/evenubic"
+        android:background="@color/editperf"
+        android:textColor="@color/textperf"
+        android:padding="10dp"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addeven_desc" />
+
+    <Button
+        android:id="@+id/addbtnfoto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="40dp"
+        android:background="@color/btncolor1"
+        android:text="@string/evensubir"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addevenimg" />
+
+    <Button
+        android:id="@+id/addbtncrearevento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="40dp"
+        android:background="@color/mar"
+        android:text="@string/evencrear"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addbtnfoto"
+        app:layout_constraintVertical_bias="0.194" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="40dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addeven_ubic">
+
+        <ImageButton
+            android:id="@+id/addbtnday"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@color/mar1"
+            app:srcCompat="@android:drawable/ic_menu_today" />
+
+        <EditText
+            android:id="@+id/addeven_day"
+            android:layout_width="115dp"
+            android:layout_height="50dp"
+            android:background="@color/editperf"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="@string/evendate"
+            android:inputType="date"
+            android:textColor="@color/textperf"
+            android:textSize="15sp" />
+
+        <ImageButton
+            android:id="@+id/addbtnhour"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@color/mar1"
+            app:srcCompat="@android:drawable/ic_menu_recent_history" />
+
+        <EditText
+            android:id="@+id/addeven_hour"
+            android:layout_width="115dp"
+            android:layout_height="50dp"
+            android:background="@color/editperf"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="@string/eventime"
+            android:inputType="time"
+            android:textColor="@color/textperf"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/addevenimg"
+        android:layout_width="match_parent"
+        android:layout_height="162dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="40dp"
+        android:background="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:srcCompat="@drawable/zhongli" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

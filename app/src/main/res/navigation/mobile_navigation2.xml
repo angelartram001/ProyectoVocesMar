@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation2"
+    app:startDestination="@id/eventosVoluntario">
+
+    <fragment
+        android:id="@+id/perfil"
+        android:name="com.example.index.OpcionesMenu.Perfil.Perfil"
+        android:label="@string/fragment_perfil"
+        tools:layout="@layout/fragment_perfil" />
+    <fragment
+        android:id="@+id/eventosAdministrador"
+        android:name="com.example.index.OpcionesMenu.EventosAdministrador.EventosAdministrador"
+        android:label="@string/fragment_eventosadministracion"
+        tools:layout="@layout/fragment_eventos_administrador" />
+    <fragment
+        android:id="@+id/convocatorias"
+        android:name="com.example.index.OpcionesMenu.Convocatorias.Convocatorias"
+        android:label="@string/fragment_convocatorias"
+        tools:layout="@layout/fragment_convocatorias" />
+    <fragment
+        android:id="@+id/allUser"
+        android:name="com.example.index.OpcionesMenu.AllUser.AllUser"
+        android:label="@string/fragment_all_user"
+        tools:layout="@layout/fragment_all_user" />
+    <activity
+        android:id="@+id/splashStar"
+        android:name="com.example.index.Splash.SplashStar"
+        android:label="activity_splashstar"
+        tools:layout="@layout/activity_splashstar" />
+    <activity
+        android:id="@+id/inicio"
+        android:name="com.example.index.Inicio"
+        android:label="activity_inicio"
+        tools:layout="@layout/activity_inicio" />
+    <activity
+        android:id="@+id/login"
+        android:name="com.example.index.Login"
+        android:label="activity_login"
+        tools:layout="@layout/activity_login" />
+    <activity
+        android:id="@+id/solicitudConvocatoria"
+        android:name="com.example.index.SolicitudConvocatoria"
+        android:label="activity_solicitud_convocatoria"
+        tools:layout="@layout/activity_solicitud_convocatoria" />
+    <activity
+        android:id="@+id/menuUser"
+        android:name="com.example.index.MenuUser"
+        android:label="app_bar_menu_user"
+        tools:layout="@layout/app_bar_menu_user" />
+    <activity
+        android:id="@+id/splashRegister"
+        android:name="com.example.index.Splash.SplashRegister"
+        android:label="activity_splash_register"
+        tools:layout="@layout/activity_splash_register" />
+    <fragment
+        android:id="@+id/eventosVoluntario"
+        android:name="com.example.index.OpcionesMenu.EventosVoluntarios.EventosVoluntario"
+        android:label="@string/fragment_eventosvoluntarios"
+        tools:layout="@layout/fragment_eventos_voluntario" />
+</navigation>

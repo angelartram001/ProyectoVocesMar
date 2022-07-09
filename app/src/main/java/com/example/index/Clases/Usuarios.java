@@ -3,22 +3,33 @@ package com.example.index.Clases;
 public class Usuarios {
 
     private String id;
+    private String name;
     private String gmail;
     private String password;
-    private String name;
-    private String lastname;
+    private int edad;
+    private String postulacion;
     private boolean active;
     private boolean permisos;
 
+    //Vacio
     public Usuarios(){
     }
 
-    public Usuarios(String id,String gmail, String password, String name, String lastname,boolean active,boolean permisos) {
-        this.id= id;
+    //Recycle
+    public Usuarios(String name,String gmail){
+        this.name = name;
+        this.gmail = gmail;
+    }
+    //Standar
+
+
+    public Usuarios(String id, String name, String gmail, String password, int edad ,String postulacion, boolean active, boolean permisos) {
+        this.id = id;
+        this.name = name;
         this.gmail = gmail;
         this.password = password;
-        this.name = name;
-        this.lastname = lastname;
+        this.edad = edad;
+        this.postulacion = postulacion;
         this.active = active;
         this.permisos = permisos;
     }
@@ -47,6 +58,14 @@ public class Usuarios {
         this.password = password;
     }
 
+    public int getEdad() {
+        return edad;
+    }
+
+    public void setEdad(int edad) {
+        this.edad = edad;
+    }
+
     public String getName() {
         return name;
     }
@@ -55,12 +74,12 @@ public class Usuarios {
         this.name = name;
     }
 
-    public String getLastname() {
-        return lastname;
+    public String getPostulacion() {
+        return postulacion;
     }
 
-    public void setLastname(String lastname) {
-        this.lastname = lastname;
+    public void setPostulacion(String postulacion) {
+        this.postulacion = postulacion;
     }
 
     public boolean isActive() {

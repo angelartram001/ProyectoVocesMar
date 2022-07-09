@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/perfil"
+            android:icon="@drawable/xperfil"
+            android:title="@string/fragment_perfil" />
+        <item
+            android:id="@+id/eventosVoluntario"
+            android:icon="@drawable/calendario"
+            android:title="@string/fragment_eventosvoluntarios" />
+        <item
+            android:id="@+id/eventosAdministrador"
+            android:icon="@drawable/lapiz"
+            android:title="@string/fragment_eventosadministracion" />
+        <item
+            android:id="@+id/convocatorias"
+            android:icon="@drawable/xconvocatoria"
+            android:title="@string/fragment_convocatorias" />
+
+        <item
+            android:id="@+id/allUser"
+            android:icon="@drawable/xtodos"
+            android:title="@string/fragment_all_user" />
+    </group>
+</menu>

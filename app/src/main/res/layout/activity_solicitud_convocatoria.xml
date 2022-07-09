@@ -4,134 +4,228 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/flogin"
+    android:background="@drawable/plantilla"
     tools:context=".SolicitudConvocatoria">
+
+    <TextView
+        android:id="@+id/cname2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/cedad"
+        android:textColor="@color/mar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/regname" />
 
     <TextView
         android:id="@+id/cname"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="36dp"
-        android:layout_marginTop="50dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="40dp"
         android:text="@string/cname"
+        android:textColor="@color/mar"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
 
     <EditText
         android:id="@+id/regname"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="36dp"
-        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="50dp"
+        android:background="@color/editperf"
         android:ems="10"
         android:hint="@string/regname"
         android:inputType="textPersonName"
         android:minHeight="48dp"
+        android:padding="11dp"
+        android:textColor="@color/textperf"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/cname" />
+        app:layout_constraintTop_toBottomOf="@+id/cname"
+        tools:ignore="TouchTargetSizeCheck" />
 
     <TextView
         android:id="@+id/clast"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="36dp"
-        android:layout_marginTop="20dp"
-        android:text="@string/clast"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/ccomentario"
+        android:textColor="@color/mar"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/regname" />
-
-    <EditText
-        android:id="@+id/reglast"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="36dp"
-        android:layout_marginTop="20dp"
-        android:ems="10"
-        android:hint="@string/reglast"
-        android:inputType="textPersonName"
-        android:minHeight="48dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/clast" />
+        app:layout_constraintTop_toBottomOf="@+id/regpass" />
 
     <TextView
         android:id="@+id/cgmail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="36dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="10dp"
         android:text="@string/cgmail"
+        android:textColor="@color/mar"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/reglast" />
+        app:layout_constraintTop_toBottomOf="@+id/regedad" />
 
     <EditText
         android:id="@+id/reggmail"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="36dp"
-        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="50dp"
+        android:background="@color/editperf"
         android:ems="10"
         android:hint="@string/reggmail"
         android:inputType="textPersonName"
         android:minHeight="48dp"
+        android:padding="11dp"
+        android:textColor="@color/textperf"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/cgmail" />
+        app:layout_constraintTop_toBottomOf="@+id/cgmail"
+        tools:ignore="TouchTargetSizeCheck" />
 
     <TextView
         android:id="@+id/cpass"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="36dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="10dp"
         android:text="@string/cpass"
+        android:textColor="@color/mar"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/reggmail" />
 
     <EditText
         android:id="@+id/regpass"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="36dp"
-        android:layout_marginTop="20dp"
+        android:layout_width="130dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/editperf"
         android:ems="10"
         android:hint="@string/regcpass"
         android:inputType="textPassword"
         android:minHeight="48dp"
+        android:padding="11dp"
+        android:textColor="@color/textperf"
+        android:textSize="15sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/cpass" />
+        app:layout_constraintTop_toBottomOf="@+id/cpass"
+        tools:ignore="TouchTargetSizeCheck" />
 
     <TextView
         android:id="@+id/ccpass"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="36dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="122dp"
         android:text="@string/ccpass"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/regpass" />
+        android:textColor="@color/mar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/reggmail" />
 
     <EditText
         android:id="@+id/regcpass"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="36dp"
-        android:layout_marginTop="20dp"
+        android:layout_width="130dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="50dp"
+        android:background="@color/editperf"
         android:ems="10"
         android:hint="@string/regcpass"
         android:inputType="textPassword"
         android:minHeight="48dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ccpass" />
+        android:padding="11dp"
+        android:textColor="@color/textperf"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ccpass"
+        tools:ignore="TouchTargetSizeCheck" />
 
     <Button
         android:id="@+id/btnsignup"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:layout_marginStart="50dp"
         android:layout_marginTop="40dp"
-        android:backgroundTint="@color/mar"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="36dp"
+        android:background="@drawable/stylebtnblack"
         android:onClick="RegistrarConvocatoria"
         android:text="@string/btnsignout"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/regpostulacion"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="50dp"
+        android:text="@string/tituloconv"
+        android:textColor="@color/mar"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/regpostulacion"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="50dp"
+        android:background="@color/editperf"
+        android:gravity="top"
+        android:hint="@string/regcomentarios"
+        android:inputType="textMultiLine"
+        android:lines="6"
+        android:overScrollMode="always"
+        android:padding="11dp"
+        android:scrollbarStyle="insideInset"
+        android:scrollbars="vertical"
+        android:scrollHorizontally="false"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/textperf"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/clast" />
+
+    <EditText
+        android:id="@+id/regedad"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="50dp"
+        android:background="@color/editperf"
+        android:hint="@string/regedad"
+        android:minHeight="48dp"
+        android:padding="11dp"
+        android:textColor="@color/textperf"
+        android:textSize="15sp"
+        android:ems="10"
+        android:inputType="number"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/regcpass" />
+        app:layout_constraintTop_toBottomOf="@+id/cname2" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

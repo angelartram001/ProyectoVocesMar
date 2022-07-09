@@ -7,5 +7,18 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="mar">#0A3756</color>
+    <color name="mar">#0059D4</color>
+    <color name="mar1">#63A6C8</color>
+    <color name="mar2">#016392</color>
+    <color name="fondonav">#FCB2F5FF</color>
+    <color name="btnnav">#572E67A5</color>
+    <color name="editperf">#D9D9D9</color>
+    <color name="sombra">#48AACFE2</color>
+    <color name="textperf">#FD4B4E4E</color>
+    <color name="btnaceptar">#FD28AE54</color>
+    <color name="btnrechazar">#7E0925</color>
+    <color name="btncolor1">#FF004C</color>
+    <color name="btncolor2">#FF77A0</color>
+
+
 </resources>
